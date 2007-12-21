@@ -11,6 +11,7 @@ Source:		%{name}-%{version}.tar.bz2
 URL:		http://0pointer.de/lennart/projects/keyfuzz/
 License:	GPL
 Group:		System/Configuration/Hardware
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	ImageMagick
 BuildRequires:  lynx
 
