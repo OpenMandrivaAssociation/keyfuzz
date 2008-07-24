@@ -1,6 +1,6 @@
 %define name	keyfuzz
 %define version	0.2
-%define release %mkrel 2
+%define release %mkrel 4
 
 Name: 	 	%{name}
 Summary: 	Keycode translator for multimedia keyboards
