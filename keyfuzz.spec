@@ -12,7 +12,7 @@ URL:		http://0pointer.de/lennart/projects/keyfuzz/
 License:	GPL
 Group:		System/Configuration/Hardware
 BuildRoot:	%{_tmppath}/%{name}-buildroot
-BuildRequires:	ImageMagick
+BuildRequires:	imagemagick
 BuildRequires:  lynx
 
 %description
