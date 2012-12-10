@@ -51,3 +51,37 @@ rm -rf $RPM_BUILD_ROOT
 
 
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 0.2-6mdv2011.0
++ Revision: 619961
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 0.2-5mdv2010.0
++ Revision: 429668
+- rebuild
+
+  + Oden Eriksson <oeriksson@mandriva.com>
+    - lowercase ImageMagick
+
+* Fri Jul 25 2008 Thierry Vignaud <tv@mandriva.org> 0.2-4mdv2009.0
++ Revision: 247741
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 0.2-2mdv2008.1
++ Revision: 136523
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Thu Oct 26 2006 Nicolas Lécureuil <neoclust@mandriva.org> 0.2-2mdv2007.0
++ Revision: 72880
+- Add BuildRequires
+- import keyfuzz-0.2-1mdv2007.0
+
+* Fri Jun 16 2006 Austin Acton <austin@mandriva.org> 0.2-1mdv2007.0
+- initial package
+
